@@ -5,8 +5,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel = "stylesheet" type/css" href = "./css/style.css">
-<title>HELLOStruts</title>
+<link rel = "stylesheet" href = "./css/style.css">
+<title>HelloStruts</title>
 </head>
 <body>
 <h1>HelloStruts2!</h1>
