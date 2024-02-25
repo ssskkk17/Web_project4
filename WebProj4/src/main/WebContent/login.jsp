@@ -22,7 +22,7 @@
 
 <s:iterator value = "loginDTOList">
 <tr>
-<td><s:property value = "uesrname"/></td>
+<td><s:property value = "username"/></td>
 <td><s:property value = "password"/></td>
 </tr>
 </s:iterator>
