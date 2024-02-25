@@ -5,30 +5,28 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href = "./css/style.css" rel = "stylesheet" type = "text/css"/>
-<title>HelloStruts</title>
+<link rel = "stylesheet" type = "text/css" href = "./css/style.css">
+<title>LOGIN</title>
 </head>
 <body>
-<h1>HelloStruts2!</h1>
-<br>
 
+<s:property value = "LoginDTOList.get(0).username"/>さん、ようこそ！
+
+<br>
 <table>
 <tbody>
 <tr>
-<th>USERID</th>
 <th>USERNAME</th>
 <th>PASSWORD</th>
-<th>RESULT</th>
 </tr>
 
-<s:iterator value = "helloStrutsDTOList">
+<s:iterator value = "loginDTOList">
 <tr>
-<td><s:property value = "userId"/></td>
-<td><s:property value = "userName"/></td>
+<td><s:property value = "uesrname"/></td>
 <td><s:property value = "password"/></td>
-<td><s:property value = "result"/></td>
 </tr>
 </s:iterator>
+
 </tbody>
 </table>
 
